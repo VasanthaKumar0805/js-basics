@@ -1,0 +1,28 @@
+
+<!-- diffrent ways of selecting element -->
+
+<!-- 1 queryselector
+2 queryselectorAll
+3 getElementById
+4 getElementByClassName
+5 getElementByTagName -->
+
+
+<div class="ok">one</div>
+<div class="ok">two</div>
+<div class="ok">three</div>
+
+ <script> 
+    //  querySelector use panni class ,id ,tag select panna mudium
+
+//  var div=document.querySelector(".ok")
+
+     var div=document.querySelectorAll(".ok")
+
+     console.log(div)
+
+for(count=0;count<div.length;count=count+1){
+    console.log(div[count].textContent)
+}
+    
+ </script>

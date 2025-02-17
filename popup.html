@@ -1,0 +1,82 @@
+<!-- <style>
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+
+.popupbox{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    color: black;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    left: 30%;
+    display: none;
+}
+</style>
+
+<button onclick="show()">Show</button>
+<div class="overlay">
+
+</div>
+
+<div class="popupbox">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque sed fugiat officiis quod magnam nam vitae. Perferendis, alias eveniet quibusdam fugiat consequatur, expedita exercitationem ut, ad eius at nesciunt!</p>
+    <button onclick="close()">Close</button>
+</div>
+
+
+<script>
+
+    // select popup overlay
+    //  select popupbox
+
+    var popupoverlay=document.querySelector(".overlay")
+    var popupbox=document.querySelector(".popupbox")
+
+    function show(){
+popupbox.style.display="block"
+popupoverlay.style.display="block"
+    }
+
+    function close(){
+        popupbox.style.display="none"
+        popupoverlay.style.display="none"  
+    }
+</script> -->
+
+
+<!-- <button id="btn" onclick="alertmessage()">show</button> -->
+
+<button id="btn">show</button>
+
+<script>
+
+var button=document.getElementById("btn")
+
+// butyo click ahana
+
+button.addEventListener("click",function(){
+    alert("Hello")
+})
+
+
+// mouseover event nadantha
+
+button.addEventListener("mouseover", function(){
+    alert("mouse over")
+})
+    // function alertmessage(){
+       
+    // }
+
+</script> 
